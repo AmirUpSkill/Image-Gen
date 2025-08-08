@@ -1,0 +1,86 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.swp
+*.swo
+*.tmp
+.tmp/
+.temp/
+.cache/
+coverage/
+
+# Editors/IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+__MACOSX/
+
+# Node / Frontend
+node_modules/
+.npm/
+.yarn/
+.pnp.*
+yarn-error.log*
+npm-debug.log*
+pnpm-debug.log*
+lib/
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+.parcel-cache/
+.vite/
+.turbo/
+.tmp/
+.eslintcache
+.storybook-out/
+coverage/
+.svelte-kit/
+.vercel/
+.netlify/
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+venv/
+.venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+.eggs/
+*.egg-info/
+.eggs/
+build/
+dist/
+.wheels/
+
+# Environments & local secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Images and datasets (optional – uncomment as needed)
+# data/
+# datasets/
+# outputs/
+
+# Docker
+**/.docker-cache/
