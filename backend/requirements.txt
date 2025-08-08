@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+google-generativeai
+boto3
+minio
+pytest
+pytest-asyncio
+httpx
+python-dotenv
+structlog
